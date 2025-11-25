@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五十音測驗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>五十音測驗</h1>
+
+    <div class="mode">
+        <label>
+            <input type="radio" name="mode" value="hiragana" checked>
+            平假名 → 輸入羅馬字
+        </label>
+        <label>
+            <input type="radio" name="mode" value="katakana">
+            片假名 → 輸入羅馬字
+        </label>
+    </div>
+
+    <div class="quiz-box">
+        <div id="question" class="question">あ</div>
+
+        <input id="answer" class="answer" placeholder="輸入羅馬字...">
+        <button id="submit" class="btn">送出</button>
+
+        <div id="result" class="result"></div>
+        <div id="score" class="score">答對：0　答錯：0</div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
