@@ -1,0 +1,66 @@
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 360px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.mode label {
+    display: block;
+    margin: 8px 0;
+}
+
+.quiz-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.question {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.answer {
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #0066ff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    height: 26px;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
